@@ -11,6 +11,7 @@ int main()
 	cout << "\n\tas far as I can C.";
 	cout << "\nI really, really like these things";
 	cout << "\n\tOh joy. Oh joy for me!";
+	//end character and closing
 	getch();
 	return 0;
 }
