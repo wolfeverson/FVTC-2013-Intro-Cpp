@@ -1,0 +1,13 @@
+﻿Build started 9/12/2012 1:49:06 PM.
+     1>Project "C:\Users\Everson11\Documents\GitHub\Intro-CPP\TESTsizeof\TESTsizeof\TESTsizeof.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TESTsizeof.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\everson11\documents\github\intro-cpp\testsizeof\testsizeof\main.cpp(12): error C2100: illegal indirection
+     1>Done Building Project "C:\Users\Everson11\Documents\GitHub\Intro-CPP\TESTsizeof\TESTsizeof\TESTsizeof.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.31
