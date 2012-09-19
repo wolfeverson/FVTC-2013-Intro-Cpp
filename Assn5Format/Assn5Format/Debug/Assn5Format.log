@@ -1,13 +1,12 @@
-﻿Build started 9/12/2012 3:02:40 PM.
+﻿Build started 9/17/2012 1:08:44 PM.
      1>Project "C:\Users\Everson11\Documents\GitHub\Intro-CPP\Assn5Format\Assn5Format\Assn5Format.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Assn5Format.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\everson11\documents\github\intro-cpp\assn5format\assn5format\main.cpp(40): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>c:\users\everson11\documents\github\intro-cpp\assn5format\assn5format\main.cpp(39): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
-     1>c:\users\everson11\documents\github\intro-cpp\assn5format\assn5format\main.cpp(26): warning C4101: 'othercounter' : unreferenced local variable
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Everson11\Documents\GitHub\Intro-CPP\Assn5Format\Debug\Assn5Format.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assn5Format.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Everson11\Documents\GitHub\Intro-CPP\Assn5Format\Debug\Assn5Format.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Everson11\Documents\GitHub\Intro-CPP\Assn5Format\Debug\Assn5Format.lib" /MACHINE:X86 Debug\main.obj
          LINK : C:\Users\Everson11\Documents\GitHub\Intro-CPP\Assn5Format\Debug\Assn5Format.exe not found or not built by the last incremental link; performing full link
@@ -21,4 +20,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.57
+Time Elapsed 00:00:04.22

@@ -23,7 +23,6 @@ void main()
 	//outputting repeated lines with increasing precision
 	//used shrinking column widths to maintain visual preciseness
 	int counter = 3;
-	int othercounter;
 	do 
 	{
 		cout << fixed <<setprecision(counter) << setw(10-counter) << left << "|" << numdub << "|" << endl;
