@@ -1,0 +1,9 @@
+5
+The numbers in reverse order are: 
+1
+2
+3
+4
+5
+
+Your total is: 15

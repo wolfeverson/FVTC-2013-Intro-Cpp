@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <conio.h>
-//#include <ios>
-//#include <io.h>
+#include <fstream>
 using namespace std;
 
 //Write a C++ program that will ask for N numbers to be put into a 1 dimensional integer array, where N is an integer value also input by the user.  
@@ -34,15 +33,14 @@ void main()
 	}
 	cout << endl << "Your total is: " << total;
 
-	//file1 = new ;    
-	//file1.open("examfile.txt");
-	//file1.write << input;
-	//file1.write << endl << "The numbers in reverse order are: " << endl;
-	//for (int i = input-1; i >= 0; i--)
-	//{
-	//	file1.write << numbers[i] << endl;
-	//}
-	//file1.write << endl << "Your total is: " << total;
-	//file1.close();
+	ofstream file1;
+	file1.open("examfile.txt");
+	file1 << endl << "The numbers in reverse order are: " << endl;
+	for (int i = input-1; i >= 0; i--)
+	{
+		file1 << numbers[i] << endl;
+	}
+	file1 << endl << "Your total is: " << total;
+	file1.close();
 	getch();
 }
