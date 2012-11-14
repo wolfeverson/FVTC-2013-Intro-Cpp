@@ -1,0 +1,26 @@
+﻿Build started 11/14/2012 1:48:35 PM.
+     1>Project "C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Assn17Bturkey\Assn17Bturkey.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Assn17Bturkey.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt turkey.cpp
+         turkey.cpp
+     1>c:\users\200102410\desktop\github\intro-cpp\assn17bturkey\assn17bturkey\turkey.cpp(27): warning C4129: ' ' : unrecognized character escape sequence
+     1>c:\users\200102410\desktop\github\intro-cpp\assn17bturkey\assn17bturkey\turkey.cpp(31): warning C4129: '/' : unrecognized character escape sequence
+     1>c:\users\200102410\desktop\github\intro-cpp\assn17bturkey\assn17bturkey\turkey.cpp(33): warning C4129: ' ' : unrecognized character escape sequence
+     1>c:\users\200102410\desktop\github\intro-cpp\assn17bturkey\assn17bturkey\turkey.cpp(34): warning C4129: ' ' : unrecognized character escape sequence
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assn17Bturkey.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.lib" /MACHINE:X86 Debug\main.obj
+         Debug\turkey.obj
+         LINK : C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.exe not found or not built by the last incremental link; performing full link
+         Assn17Bturkey.vcxproj -> C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Debug\Assn17Bturkey.exe;#1" /manifest Debug\Assn17Bturkey.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assn17Bturkey.unsuccessfulbuild".
+         Touching "Debug\Assn17Bturkey.lastbuildstate".
+     1>Done Building Project "C:\Users\200102410\Desktop\GitHub\Intro-CPP\Assn17Bturkey\Assn17Bturkey\Assn17Bturkey.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56
