@@ -9,7 +9,6 @@ void init();
 void reshape(int, int);
 void display();
 void keyboard(unsigned char, int, int);
-void debug(string message);
 void draw();
 //position of light
 static GLfloat light_one[] = {5.5, 0.0, 5.0, 1.0};
@@ -89,11 +88,6 @@ void keyboard(unsigned char key, int x, int y)
 	}
 	glutPostRedisplay();
 	debug("");
-}
-
-void debug(string message)
-{
-	cout << "x:" << viewer[0] << " y:" << viewer[1] << " z:" << viewer[2] << endl;
 }
 
 //output in initial console
